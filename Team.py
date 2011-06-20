@@ -9,6 +9,7 @@ class Team:
         pass
 
     def reverse_input(self):
+	print self.word[::-1]
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
         # TODO by person 1
@@ -25,12 +26,4 @@ class Team:
 t = Team()
 t.reverse_input()
 t.print_in_sentence()
-print 'hey'
-#felix changed something
-<<<<<<< HEAD
-#another change
-=======
-print 'barbara also did change something'
-#kwasi said to try again
 
->>>>>>> f00a43877c9c5b5d4680615832f1135c8bea139d
