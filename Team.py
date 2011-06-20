@@ -15,6 +15,7 @@ class Team:
         pass
     
     def print_in_sentence(self):
+	print 'Today I dreamt of ' + str(self.word) + ' while walking on the beach.'
         """ Insert self.word in the sentence 'Today I dreamt of
         <self.word> while walking on the beach.' replacing <self.word>
         for the noun that was chosen during class construction. """
